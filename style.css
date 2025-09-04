@@ -1,0 +1,19 @@
+body {
+margin: 0;
+box-sizing: border-box;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 64px 120px;
+    height: 100vh;
+    background-image: url(img/back1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+}
