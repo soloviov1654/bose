@@ -2,6 +2,12 @@ body {
 margin: 0;
 box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    &:hover {
+        border-bottom: 2px solid;
+    }
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -16,4 +22,12 @@ box-sizing: border-box;
 .menu-wrap {
     display: flex;
     justify-content: space-between;
+}
+.link-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.burger-menu {
+    background-color: #E8EFF9;
+    padding: 64px 120px;
 }
