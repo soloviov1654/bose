@@ -1,9 +1,14 @@
+html{
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
 body {
 margin: 0;
 box-sizing: border-box;
 }
 a {
     text-decoration: none;
+    color: #292929;
     &:hover {
         border-bottom: 2px solid;
     }
@@ -22,12 +27,20 @@ a {
 .menu-wrap {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 54px;
 }
 .link-wrap {
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
+    gap: 32px;
+    font-size: 22px;
+    font-weight: 700;
 }
 .burger-menu {
     background-color: #E8EFF9;
     padding: 64px 120px;
+}
+.burger-menu {
+    height: 100vh;
 }
